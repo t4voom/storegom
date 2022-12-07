@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+h1{font-family: 'Press Start 2P', cursive;
+}
+
+
+
+h4{font-family: 'Nerko One', cursive;
+}
+
+
+label{font-family: 'Nerko One', cursive;
+    color: #FFCCE5
+}
+
+legend{font-family: 'Nerko One', cursive;
+    color: #FFCCE5
+}
+
+header{
+   
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom:5px solid #8A2BE2;
+    width: 15;
+}
+
+/* Grid de produtos */
+p { color: #000000 }
+
+.container{
+    background-color: #300056;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.produtos-container{
+    max-width: 1200px;;
+    margin: 0 auto;
+
+}
+
+.descricao-produto{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.produto-imagem{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+h3{
+    font-family: 'Creepster', cursive;
+    margin-bottom: 10px;
+    color: #a64dff;
+    border-left: 5px solid #8A2BE2;
+    padding-left: 7px;
+    font-size: 24px;
+
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    color: #a64dff;
+    border-radius:5px solid #8A2BE2;
+    text-align: center;
+    border-bottom:5px solid #8A2BE2;
+}
+
+.descricao-produto 
+p{
+    margin-bottom: 10px;
+    font-family: 'Nerko One', cursive;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #8A2BE2;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #4B0082;
+    color: #A9A9A9;
+    border-top: 5px solid #000000;
+    text-align: center;
+    padding: 80px;
+}
+
+td{
+    text-align: left;
+}
+
+table{
+    line-height: 2;
+}
+
+.lineheight{
+    line-height: 1.4;
+
+}
+
+a .myButton {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Creepster';
+	font: size 35px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+p {
+    margin-bottom: 10px;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    color:#FFCCE5
+}
+a {
+    font-family: 'Creepster';
+    font-size: 40px;
+}
+
+
+

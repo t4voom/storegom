@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+h1{
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    color: #a64dff;
+    border-left: 5px solid #8A2BE2;
+    padding-left: 7px;
+    font-size: 35px;
+
+}
+
+
+header{
+   
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom:5px solid #8A2BE2;
+    width: 15;
+}
+
+/* Grid de produtos */
+p  { color: #000000 }
+.container{
+    background-color: #300056;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+h3{
+    font-family: 'Creepster', cursive;
+    margin-bottom: 10px;
+    color: #a64dff;
+    border-left: 5px solid #8A2BE2;
+    padding-left: 7px;
+    font-size: 35px;
+
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    color: #a64dff;
+    border-radius:5px solid #8A2BE2;
+    text-align: center;
+    border-bottom:5px solid #8A2BE2;
+    font-size: 35px;
+    padding: 60px;
+
+}
+
+.descricao-produto 
+p{
+    margin-bottom: 10px;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    color:#FFCCE5
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #8A2BE2;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #4B0082;
+    color: #A9A9A9;
+    border-top: 5px solid #000000;
+    text-align: center;
+    padding: 80px;
+}
+
+td{
+    text-align: left;
+}
+
+table{
+    line-height: 2;
+}
+
+.lineheight{
+    line-height: 1.4;
+
+}
+
+h4 {font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    color: #a64dff;
+    border-radius:5px solid #8A2BE2;
+    text-align: center;
+    border-bottom:5px solid #8A2BE2;
+    font-size: 35px;
+    padding: 30px;
+}
+    
+a .myButton {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:50px;
+	font-size:35px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a {
+    font-family: 'Creepster';
+    font-size: 40px;
+}
+p {
+    margin-bottom: 10px;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    color:#FFCCE5
+}
+
+
+
+        
